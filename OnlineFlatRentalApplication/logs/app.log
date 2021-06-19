@@ -1,0 +1,41 @@
+2021-06-19 00:49:30,281 WARN com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h25m12s5ms350탎600ns).
+2021-06-19 00:51:50,515 WARN com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m34s524ms529탎500ns).
+2021-06-19 04:19:51,007 WARN com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h29s945ms309탎800ns).
+2021-06-19 09:53:38,717 WARN com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5h33m56s617ms835탎800ns).
+2021-06-19 10:07:00,812 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(2)-127.0.0.1] Application shutdown requested.
+2021-06-19 10:07:07,033 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [RMI TCP Connection(2)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-06-19 10:07:08,166 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2021-06-19 10:07:08,254 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2021-06-19 10:27:48,940 INFO com.OnlineFlatRentalApplication [main] Starting OnlineFlatRentalApplication using Java 15.0.2 on DESKTOP-9L7FDO8 with PID 8436 (C:\Users\ASHISH\porject\OnlineFlatRentalApplication\bin\main started by ASHISH in C:\Users\ASHISH\porject\OnlineFlatRentalApplication)
+2021-06-19 10:27:48,942 INFO com.OnlineFlatRentalApplication [main] No active profile set, falling back to default profiles: default
+2021-06-19 10:27:50,879 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-19 10:27:51,302 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 397 ms. Found 1 JPA repository interfaces.
+2021-06-19 10:27:52,756 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-06-19 10:27:52,775 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-06-19 10:27:52,776 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2021-06-19 10:27:52,777 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-19 10:27:52,963 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2021-06-19 10:27:52,963 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3961 ms
+2021-06-19 10:27:53,223 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-06-19 10:27:54,351 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-06-19 10:27:55,043 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-19 10:27:55,242 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-06-19 10:27:55,888 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-19 10:27:56,288 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2021-06-19 10:28:00,543 INFO org.hibernate.tuple.PojoInstantiator [main] HHH000182: No default (no-argument) constructor for class: com.entities.FlatBooking (class must be instantiated by Interceptor)
+2021-06-19 10:28:00,556 INFO org.hibernate.tuple.PojoInstantiator [main] HHH000182: No default (no-argument) constructor for class: com.entities.UserOne (class must be instantiated by Interceptor)
+2021-06-19 10:28:00,565 INFO org.hibernate.tuple.PojoInstantiator [main] HHH000182: No default (no-argument) constructor for class: com.entities.Tenant (class must be instantiated by Interceptor)
+2021-06-19 10:28:00,571 INFO org.hibernate.tuple.PojoInstantiator [main] HHH000182: No default (no-argument) constructor for class: com.entities.Admin (class must be instantiated by Interceptor)
+2021-06-19 10:28:03,719 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-19 10:28:03,748 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-19 10:28:04,969 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-19 10:28:09,217 INFO org.apache.coyote.http11.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-06-19 10:28:09,673 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-19 10:28:10,672 INFO com.OnlineFlatRentalApplication [main] Started OnlineFlatRentalApplication in 22.419 seconds (JVM running for 25.163)
+2021-06-19 10:28:45,089 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-19 10:28:45,089 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-06-19 10:28:45,091 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2021-06-19 10:28:54,754 ERROR springfox.documentation.swagger2.mappers.ReferenceModelSpecificationToPropertyConverter [http-nio-8080-exec-8] Unable to find a model that matches key ModelKey{qualifiedModelName=ModelName{namespace='java.util', name='Optional첣andlord�'}, viewDiscriminator=null, validationGroupDiscriminators=[], isResponse=true}
+2021-06-19 12:08:28,085 WARN com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h17m3s214ms614탎100ns).
+2021-06-19 14:15:23,759 WARN com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h26m54s983ms783탎99ns).
+2021-06-19 14:51:49,789 WARN com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=18m55s742ms750탎601ns).
