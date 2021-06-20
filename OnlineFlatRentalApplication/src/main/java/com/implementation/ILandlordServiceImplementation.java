@@ -9,7 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.entities.Flat;
-import com.entities.FlatAdress;
+import com.entities.FlatAddress;
 import com.entities.Landlord;
 import com.exception.LandlordNotFoundException;
 import com.repository.ILandlordRepository;

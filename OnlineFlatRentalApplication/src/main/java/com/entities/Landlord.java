@@ -3,6 +3,7 @@ package com.entities;
 
 
 
+import java.util.ArrayList;
 import java.util.List;
 
 import javax.persistence.CascadeType;
@@ -24,7 +25,7 @@ import org.springframework.stereotype.Component;
 public class Landlord {
 	
 	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
+	@GeneratedValue(strategy = GenerationType.SEQUENCE)
 	private int landlordId;
 	
 	@NotEmpty(message = "Landlord name cannot be empty")
@@ -40,10 +41,8 @@ public class Landlord {
 	private int landlordAge;
 
 	
-	@OneToMany
-	//(mappedBy = "flatId")
-	//@JoinColumn(name="flatId")
-	private  List<Flat> flatList ;
+	@OneToMany(cascade=CascadeType.ALL)
+	private  List<Flat> flatList = new ArrayList<Flat>();
 	
 	public Landlord()
 	{ 

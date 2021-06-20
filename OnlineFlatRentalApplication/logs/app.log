@@ -145,3 +145,253 @@
 2021-06-20 14:47:37,566 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [RMI TCP Connection(2)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
 2021-06-20 14:47:37,569 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-1 - Shutdown initiated...
 2021-06-20 14:47:37,583 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2021-06-20 14:50:35,107 INFO com.OnlineFlatRentalApplication [main] Starting OnlineFlatRentalApplication using Java 15.0.2 on DESKTOP-9L7FDO8 with PID 4412 (C:\Users\ASHISH\git\OnlineFlatRentalApplication\OnlineFlatRentalApplication\bin\main started by ASHISH in C:\Users\ASHISH\git\OnlineFlatRentalApplication\OnlineFlatRentalApplication)
+2021-06-20 14:50:35,142 INFO com.OnlineFlatRentalApplication [main] No active profile set, falling back to default profiles: default
+2021-06-20 14:50:41,272 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-20 14:50:42,577 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 1276 ms. Found 1 JPA repository interfaces.
+2021-06-20 14:50:45,499 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-06-20 14:50:45,580 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-06-20 14:50:45,581 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2021-06-20 14:50:45,582 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-20 14:50:45,894 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2021-06-20 14:50:45,894 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 10667 ms
+2021-06-20 14:50:46,157 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-06-20 14:50:47,266 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-06-20 14:50:47,956 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-20 14:50:48,113 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-06-20 14:50:48,719 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-20 14:50:49,180 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2021-06-20 14:50:52,239 INFO org.hibernate.tuple.PojoInstantiator [main] HHH000182: No default (no-argument) constructor for class: com.entities.FlatBooking (class must be instantiated by Interceptor)
+2021-06-20 14:50:52,249 INFO org.hibernate.tuple.PojoInstantiator [main] HHH000182: No default (no-argument) constructor for class: com.entities.UserOne (class must be instantiated by Interceptor)
+2021-06-20 14:50:52,257 INFO org.hibernate.tuple.PojoInstantiator [main] HHH000182: No default (no-argument) constructor for class: com.entities.Tenant (class must be instantiated by Interceptor)
+2021-06-20 14:50:52,264 INFO org.hibernate.tuple.PojoInstantiator [main] HHH000182: No default (no-argument) constructor for class: com.entities.Admin (class must be instantiated by Interceptor)
+2021-06-20 14:50:53,206 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-20 14:50:53,983 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-20 14:50:54,898 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-20 14:50:56,621 INFO org.apache.coyote.http11.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-06-20 14:50:56,918 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-20 14:50:57,506 INFO com.OnlineFlatRentalApplication [main] Started OnlineFlatRentalApplication in 23.174 seconds (JVM running for 25.306)
+2021-06-20 15:21:04,950 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(2)-127.0.0.1] Application shutdown requested.
+2021-06-20 15:21:05,018 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [RMI TCP Connection(2)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-06-20 15:21:05,020 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2021-06-20 15:21:05,041 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2021-06-20 15:21:11,166 INFO com.OnlineFlatRentalApplication [main] Starting OnlineFlatRentalApplication using Java 15.0.2 on DESKTOP-9L7FDO8 with PID 2228 (C:\Users\ASHISH\git\OnlineFlatRentalApplication\OnlineFlatRentalApplication\bin\main started by ASHISH in C:\Users\ASHISH\git\OnlineFlatRentalApplication\OnlineFlatRentalApplication)
+2021-06-20 15:21:11,169 INFO com.OnlineFlatRentalApplication [main] No active profile set, falling back to default profiles: default
+2021-06-20 15:21:12,715 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-20 15:21:13,105 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 380 ms. Found 2 JPA repository interfaces.
+2021-06-20 15:21:13,846 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-06-20 15:21:13,856 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-06-20 15:21:13,857 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2021-06-20 15:21:13,857 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-20 15:21:13,971 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2021-06-20 15:21:13,972 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2745 ms
+2021-06-20 15:21:14,142 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-06-20 15:21:14,536 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-06-20 15:21:14,914 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-20 15:21:14,986 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-06-20 15:21:15,149 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-20 15:21:15,292 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2021-06-20 15:21:16,211 INFO org.hibernate.tuple.PojoInstantiator [main] HHH000182: No default (no-argument) constructor for class: com.entities.FlatBooking (class must be instantiated by Interceptor)
+2021-06-20 15:21:16,220 INFO org.hibernate.tuple.PojoInstantiator [main] HHH000182: No default (no-argument) constructor for class: com.entities.UserOne (class must be instantiated by Interceptor)
+2021-06-20 15:21:16,228 INFO org.hibernate.tuple.PojoInstantiator [main] HHH000182: No default (no-argument) constructor for class: com.entities.Tenant (class must be instantiated by Interceptor)
+2021-06-20 15:21:16,235 INFO org.hibernate.tuple.PojoInstantiator [main] HHH000182: No default (no-argument) constructor for class: com.entities.Admin (class must be instantiated by Interceptor)
+2021-06-20 15:21:19,473 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-20 15:21:19,485 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-20 15:21:20,070 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-20 15:21:21,169 INFO org.apache.coyote.http11.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-06-20 15:21:21,244 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-20 15:21:21,777 INFO com.OnlineFlatRentalApplication [main] Started OnlineFlatRentalApplication in 10.968 seconds (JVM running for 11.958)
+2021-06-20 15:21:30,594 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-20 15:21:30,595 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-06-20 15:21:30,598 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 3 ms
+2021-06-20 15:21:35,336 ERROR springfox.documentation.swagger2.mappers.ReferenceModelSpecificationToPropertyConverter [http-nio-8080-exec-9] Unable to find a model that matches key ModelKey{qualifiedModelName=ModelName{namespace='java.util', name='Optional«Landlord»'}, viewDiscriminator=null, validationGroupDiscriminators=[], isResponse=true}
+2021-06-20 15:38:49,160 ERROR springfox.documentation.swagger2.mappers.ReferenceModelSpecificationToPropertyConverter [http-nio-8080-exec-8] Unable to find a model that matches key ModelKey{qualifiedModelName=ModelName{namespace='java.util', name='Optional«Landlord»'}, viewDiscriminator=null, validationGroupDiscriminators=[], isResponse=true}
+2021-06-20 15:42:39,990 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [http-nio-8080-exec-3] SQL Error: 0, SQLState: 23503
+2021-06-20 15:42:39,991 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [http-nio-8080-exec-3] ERROR: insert or update on table "flat" violates foreign key constraint "fkjaberm8om1ap0kpk3fuc02ywv"
+  Detail: Key (house_no)=(3) is not present in table "flat_adress".
+2021-06-20 15:43:26,783 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(2)-127.0.0.1] Application shutdown requested.
+2021-06-20 15:43:27,451 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [RMI TCP Connection(2)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-06-20 15:43:27,622 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2021-06-20 15:43:27,697 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2021-06-20 15:43:40,892 INFO com.OnlineFlatRentalApplication [main] Starting OnlineFlatRentalApplication using Java 15.0.2 on DESKTOP-9L7FDO8 with PID 11244 (C:\Users\ASHISH\git\OnlineFlatRentalApplication\OnlineFlatRentalApplication\bin\main started by ASHISH in C:\Users\ASHISH\git\OnlineFlatRentalApplication\OnlineFlatRentalApplication)
+2021-06-20 15:43:40,899 INFO com.OnlineFlatRentalApplication [main] No active profile set, falling back to default profiles: default
+2021-06-20 15:43:43,841 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-20 15:43:44,803 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 797 ms. Found 2 JPA repository interfaces.
+2021-06-20 15:43:46,702 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-06-20 15:43:46,729 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-06-20 15:43:46,730 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2021-06-20 15:43:46,730 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-20 15:43:46,950 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2021-06-20 15:43:46,950 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 5959 ms
+2021-06-20 15:43:47,170 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-06-20 15:43:47,884 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-06-20 15:43:48,505 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-20 15:43:48,675 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-06-20 15:43:49,434 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-20 15:43:49,763 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2021-06-20 15:43:51,964 INFO org.hibernate.tuple.PojoInstantiator [main] HHH000182: No default (no-argument) constructor for class: com.entities.FlatBooking (class must be instantiated by Interceptor)
+2021-06-20 15:43:51,972 INFO org.hibernate.tuple.PojoInstantiator [main] HHH000182: No default (no-argument) constructor for class: com.entities.UserOne (class must be instantiated by Interceptor)
+2021-06-20 15:43:51,981 INFO org.hibernate.tuple.PojoInstantiator [main] HHH000182: No default (no-argument) constructor for class: com.entities.Tenant (class must be instantiated by Interceptor)
+2021-06-20 15:43:51,987 INFO org.hibernate.tuple.PojoInstantiator [main] HHH000182: No default (no-argument) constructor for class: com.entities.Admin (class must be instantiated by Interceptor)
+2021-06-20 15:43:53,091 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-20 15:43:53,133 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-20 15:43:54,008 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-20 15:43:55,640 INFO org.apache.coyote.http11.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-06-20 15:43:55,832 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-20 15:43:56,435 INFO com.OnlineFlatRentalApplication [main] Started OnlineFlatRentalApplication in 16.162 seconds (JVM running for 17.777)
+2021-06-20 15:44:04,967 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-20 15:44:04,969 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-06-20 15:44:04,988 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 17 ms
+2021-06-20 15:44:06,216 ERROR springfox.documentation.swagger2.mappers.ReferenceModelSpecificationToPropertyConverter [http-nio-8080-exec-6] Unable to find a model that matches key ModelKey{qualifiedModelName=ModelName{namespace='java.util', name='Optional«Landlord»'}, viewDiscriminator=null, validationGroupDiscriminators=[], isResponse=true}
+2021-06-20 15:46:01,633 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [http-nio-8080-exec-9] SQL Error: 0, SQLState: 23503
+2021-06-20 15:46:01,633 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [http-nio-8080-exec-9] ERROR: insert or update on table "flat" violates foreign key constraint "fkjaberm8om1ap0kpk3fuc02ywv"
+  Detail: Key (house_no)=(2) is not present in table "flat_adress".
+2021-06-20 15:52:01,122 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(2)-127.0.0.1] Application shutdown requested.
+2021-06-20 15:52:02,098 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [RMI TCP Connection(2)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-06-20 15:52:02,147 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2021-06-20 15:52:02,197 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2021-06-20 15:52:21,163 INFO com.OnlineFlatRentalApplication [main] Starting OnlineFlatRentalApplication using Java 15.0.2 on DESKTOP-9L7FDO8 with PID 11860 (C:\Users\ASHISH\git\OnlineFlatRentalApplication\OnlineFlatRentalApplication\bin\main started by ASHISH in C:\Users\ASHISH\git\OnlineFlatRentalApplication\OnlineFlatRentalApplication)
+2021-06-20 15:52:21,167 INFO com.OnlineFlatRentalApplication [main] No active profile set, falling back to default profiles: default
+2021-06-20 15:52:24,620 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-20 15:52:25,590 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 925 ms. Found 2 JPA repository interfaces.
+2021-06-20 15:52:30,329 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-06-20 15:52:30,470 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-06-20 15:52:30,471 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2021-06-20 15:52:30,472 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-20 15:52:31,401 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2021-06-20 15:52:31,401 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 10157 ms
+2021-06-20 15:52:32,540 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-06-20 15:52:34,167 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-06-20 15:52:34,967 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-20 15:52:35,199 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-06-20 15:52:35,668 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-20 15:52:36,071 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2021-06-20 15:52:38,018 INFO org.hibernate.tuple.PojoInstantiator [main] HHH000182: No default (no-argument) constructor for class: com.entities.FlatBooking (class must be instantiated by Interceptor)
+2021-06-20 15:52:38,029 INFO org.hibernate.tuple.PojoInstantiator [main] HHH000182: No default (no-argument) constructor for class: com.entities.UserOne (class must be instantiated by Interceptor)
+2021-06-20 15:52:38,037 INFO org.hibernate.tuple.PojoInstantiator [main] HHH000182: No default (no-argument) constructor for class: com.entities.Tenant (class must be instantiated by Interceptor)
+2021-06-20 15:52:38,043 INFO org.hibernate.tuple.PojoInstantiator [main] HHH000182: No default (no-argument) constructor for class: com.entities.Admin (class must be instantiated by Interceptor)
+2021-06-20 15:52:39,583 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-20 15:52:39,643 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-20 15:52:42,635 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-20 15:52:45,862 INFO org.apache.coyote.http11.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-06-20 15:52:45,948 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-20 15:52:46,560 INFO com.OnlineFlatRentalApplication [main] Started OnlineFlatRentalApplication in 25.825 seconds (JVM running for 27.988)
+2021-06-20 15:53:50,386 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-20 15:53:50,387 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-06-20 15:53:50,392 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 5 ms
+2021-06-20 15:53:53,072 ERROR springfox.documentation.swagger2.mappers.ReferenceModelSpecificationToPropertyConverter [http-nio-8080-exec-8] Unable to find a model that matches key ModelKey{qualifiedModelName=ModelName{namespace='java.util', name='Optional«Landlord»'}, viewDiscriminator=null, validationGroupDiscriminators=[], isResponse=true}
+2021-06-20 15:58:14,741 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(2)-127.0.0.1] Application shutdown requested.
+2021-06-20 15:58:14,802 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [RMI TCP Connection(2)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-06-20 15:58:14,806 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2021-06-20 15:58:14,834 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2021-06-20 15:58:23,939 INFO com.OnlineFlatRentalApplication [main] Starting OnlineFlatRentalApplication using Java 15.0.2 on DESKTOP-9L7FDO8 with PID 1436 (C:\Users\ASHISH\git\OnlineFlatRentalApplication\OnlineFlatRentalApplication\bin\main started by ASHISH in C:\Users\ASHISH\git\OnlineFlatRentalApplication\OnlineFlatRentalApplication)
+2021-06-20 15:58:23,941 INFO com.OnlineFlatRentalApplication [main] No active profile set, falling back to default profiles: default
+2021-06-20 15:58:26,441 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-20 15:58:26,866 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 412 ms. Found 2 JPA repository interfaces.
+2021-06-20 15:58:28,051 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-06-20 15:58:28,062 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-06-20 15:58:28,062 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2021-06-20 15:58:28,062 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-20 15:58:28,196 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2021-06-20 15:58:28,196 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4205 ms
+2021-06-20 15:58:28,394 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-06-20 15:58:29,542 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-06-20 15:58:30,002 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-20 15:58:30,060 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-06-20 15:58:30,257 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-20 15:58:30,423 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2021-06-20 15:58:31,597 INFO org.hibernate.tuple.PojoInstantiator [main] HHH000182: No default (no-argument) constructor for class: com.entities.FlatBooking (class must be instantiated by Interceptor)
+2021-06-20 15:58:31,614 INFO org.hibernate.tuple.PojoInstantiator [main] HHH000182: No default (no-argument) constructor for class: com.entities.UserOne (class must be instantiated by Interceptor)
+2021-06-20 15:58:31,627 INFO org.hibernate.tuple.PojoInstantiator [main] HHH000182: No default (no-argument) constructor for class: com.entities.Tenant (class must be instantiated by Interceptor)
+2021-06-20 15:58:31,641 INFO org.hibernate.tuple.PojoInstantiator [main] HHH000182: No default (no-argument) constructor for class: com.entities.Admin (class must be instantiated by Interceptor)
+2021-06-20 15:58:32,545 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] SQL Warning Code: 0, SQLState: 00000
+2021-06-20 15:58:32,548 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] constraint "uk_nad2igqabkwnb52oj8balll66" of relation "landlord_flat_list" does not exist, skipping
+2021-06-20 15:58:33,357 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-20 15:58:35,730 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-20 15:58:36,624 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-20 15:58:38,662 INFO org.apache.coyote.http11.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-06-20 15:58:38,704 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-20 15:58:39,407 INFO com.OnlineFlatRentalApplication [main] Started OnlineFlatRentalApplication in 15.867 seconds (JVM running for 16.96)
+2021-06-20 15:59:40,010 INFO com.OnlineFlatRentalApplication [main] Starting OnlineFlatRentalApplication using Java 15.0.2 on DESKTOP-9L7FDO8 with PID 10424 (C:\Users\ASHISH\git\OnlineFlatRentalApplication\OnlineFlatRentalApplication\bin\main started by ASHISH in C:\Users\ASHISH\git\OnlineFlatRentalApplication\OnlineFlatRentalApplication)
+2021-06-20 15:59:40,013 INFO com.OnlineFlatRentalApplication [main] No active profile set, falling back to default profiles: default
+2021-06-20 15:59:41,999 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-20 15:59:42,431 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 422 ms. Found 2 JPA repository interfaces.
+2021-06-20 15:59:43,198 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-06-20 15:59:43,208 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-06-20 15:59:43,209 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2021-06-20 15:59:43,209 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-20 15:59:43,837 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2021-06-20 15:59:43,837 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3772 ms
+2021-06-20 15:59:44,025 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-06-20 15:59:44,367 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-06-20 15:59:44,817 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-20 15:59:44,898 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-06-20 15:59:45,120 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-20 15:59:45,273 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2021-06-20 15:59:46,574 INFO org.hibernate.tuple.PojoInstantiator [main] HHH000182: No default (no-argument) constructor for class: com.entities.FlatBooking (class must be instantiated by Interceptor)
+2021-06-20 15:59:46,590 INFO org.hibernate.tuple.PojoInstantiator [main] HHH000182: No default (no-argument) constructor for class: com.entities.UserOne (class must be instantiated by Interceptor)
+2021-06-20 15:59:46,597 INFO org.hibernate.tuple.PojoInstantiator [main] HHH000182: No default (no-argument) constructor for class: com.entities.Tenant (class must be instantiated by Interceptor)
+2021-06-20 15:59:46,604 INFO org.hibernate.tuple.PojoInstantiator [main] HHH000182: No default (no-argument) constructor for class: com.entities.Admin (class must be instantiated by Interceptor)
+2021-06-20 15:59:47,501 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-20 15:59:47,512 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-20 15:59:48,167 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-20 15:59:51,142 INFO org.apache.coyote.http11.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-06-20 15:59:51,341 WARN org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2021-06-20 15:59:51,356 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-06-20 15:59:51,358 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown initiated...
+2021-06-20 15:59:52,950 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown completed.
+2021-06-20 15:59:52,956 INFO org.apache.coyote.http11.Http11NioProtocol [main] Pausing ProtocolHandler ["http-nio-8080"]
+2021-06-20 15:59:52,957 INFO org.apache.catalina.core.StandardService [main] Stopping service [Tomcat]
+2021-06-20 15:59:53,032 INFO org.apache.coyote.http11.Http11NioProtocol [main] Stopping ProtocolHandler ["http-nio-8080"]
+2021-06-20 15:59:53,033 INFO org.apache.coyote.http11.Http11NioProtocol [main] Destroying ProtocolHandler ["http-nio-8080"]
+2021-06-20 15:59:53,041 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-06-20 15:59:53,314 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2021-06-20 16:00:10,400 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(2)-127.0.0.1] Application shutdown requested.
+2021-06-20 16:00:10,446 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [RMI TCP Connection(2)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-06-20 16:00:10,448 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2021-06-20 16:00:10,454 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2021-06-20 16:00:16,271 INFO com.OnlineFlatRentalApplication [main] Starting OnlineFlatRentalApplication using Java 15.0.2 on DESKTOP-9L7FDO8 with PID 11156 (C:\Users\ASHISH\git\OnlineFlatRentalApplication\OnlineFlatRentalApplication\bin\main started by ASHISH in C:\Users\ASHISH\git\OnlineFlatRentalApplication\OnlineFlatRentalApplication)
+2021-06-20 16:00:16,326 INFO com.OnlineFlatRentalApplication [main] No active profile set, falling back to default profiles: default
+2021-06-20 16:00:18,031 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-20 16:00:18,463 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 423 ms. Found 2 JPA repository interfaces.
+2021-06-20 16:00:19,223 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-06-20 16:00:19,234 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-06-20 16:00:19,234 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2021-06-20 16:00:19,234 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-20 16:00:19,379 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2021-06-20 16:00:19,379 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2976 ms
+2021-06-20 16:00:19,571 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-06-20 16:00:20,652 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-06-20 16:00:21,098 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-20 16:00:21,154 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-06-20 16:00:21,339 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-20 16:00:21,500 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2021-06-20 16:00:22,454 INFO org.hibernate.tuple.PojoInstantiator [main] HHH000182: No default (no-argument) constructor for class: com.entities.FlatBooking (class must be instantiated by Interceptor)
+2021-06-20 16:00:22,466 INFO org.hibernate.tuple.PojoInstantiator [main] HHH000182: No default (no-argument) constructor for class: com.entities.UserOne (class must be instantiated by Interceptor)
+2021-06-20 16:00:22,475 INFO org.hibernate.tuple.PojoInstantiator [main] HHH000182: No default (no-argument) constructor for class: com.entities.Tenant (class must be instantiated by Interceptor)
+2021-06-20 16:00:22,482 INFO org.hibernate.tuple.PojoInstantiator [main] HHH000182: No default (no-argument) constructor for class: com.entities.Admin (class must be instantiated by Interceptor)
+2021-06-20 16:00:23,326 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-20 16:00:23,339 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-20 16:00:23,936 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-20 16:00:25,333 INFO org.apache.coyote.http11.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-06-20 16:00:25,373 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-20 16:00:25,891 INFO com.OnlineFlatRentalApplication [main] Started OnlineFlatRentalApplication in 10.015 seconds (JVM running for 11.212)
+2021-06-20 16:04:43,174 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-20 16:04:43,174 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-06-20 16:04:43,178 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 3 ms
+2021-06-20 16:04:44,193 ERROR springfox.documentation.swagger2.mappers.ReferenceModelSpecificationToPropertyConverter [http-nio-8080-exec-6] Unable to find a model that matches key ModelKey{qualifiedModelName=ModelName{namespace='java.util', name='Optional«Landlord»'}, viewDiscriminator=null, validationGroupDiscriminators=[], isResponse=true}

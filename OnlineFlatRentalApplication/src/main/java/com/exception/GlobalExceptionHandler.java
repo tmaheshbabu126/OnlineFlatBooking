@@ -16,6 +16,12 @@ public class GlobalExceptionHandler {
          ErrorDetails errorDetails = new ErrorDetails(LocalDateTime.now(), ex.getMessage(), request.getDescription(false));
          return new ResponseEntity<>(errorDetails, HttpStatus.NOT_FOUND);
     }
+    
+    @ExceptionHandler(FlatNotFoundException.class)
+    public ResponseEntity<?> resourceNotFoundException(FlatNotFoundException ex, WebRequest request) {
+         ErrorDetails errorDetails = new ErrorDetails(LocalDateTime.now(), ex.getMessage(), request.getDescription(false));
+         return new ResponseEntity<>(errorDetails, HttpStatus.NOT_FOUND);
+    }
 
 	
 	  @ExceptionHandler(Exception.class) 

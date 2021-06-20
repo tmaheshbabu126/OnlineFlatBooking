@@ -16,8 +16,8 @@ public class Tenant {
 	
 	@OneToOne
 	@JoinColumn(name="houseNo")
-	private FlatAdress taddress;
-	public Tenant(int tenant_id, int age, FlatAdress taddress) {
+	private FlatAddress taddress;
+	public Tenant(int tenant_id, int age, FlatAddress taddress) {
 		super();
 		this.tenant_id = tenant_id;
 		this.age = age;
@@ -35,10 +35,10 @@ public class Tenant {
 	public void setAge(int age) {
 		this.age = age;
 	}
-	public FlatAdress getTaddress() {
+	public FlatAddress getTaddress() {
 		return taddress;
 	}
-	public void setTaddress(FlatAdress taddress) {
+	public void setTaddress(FlatAddress taddress) {
 		this.taddress = taddress;
 	}
 	@Override
