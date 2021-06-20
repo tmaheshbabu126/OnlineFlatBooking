@@ -8,7 +8,10 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
+import javax.validation.constraints.Min;
 import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.Size;
 
 import org.springframework.stereotype.Component;
 
@@ -21,36 +24,38 @@ import com.sun.istack.NotNull;
 public class Tenant {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
+	//@Column(name="tenantid")
 	private int tenant_id;
 	
-	//@NotBlank(message = "Tenant name cannot be empty")
-	//@NotNull
-//	@Size(min=3,max=6)
+	@NotBlank(message = "Tenant name cannot be empty")
+	@NotNull
+	@Size(min=3,max=6)
 //	@Pattern(regexp ="^[A-Z][a-z]", message ="length must be 3 and max 6 and dont use numbers")
 	//(name = "Tenant name")
+	//@Column(name="Name")
 	private String name;
 	
-	//@NotBlank(message = "Tenant age cannot be empty")
-	//@NotNull
+	//@NotBlank
+	@NotBlank(message = "Tenant age cannot be empty")
+	@NotNull
+	@Min(18)
 	//@Column(name = "Tenant age")
 	private int age;
 	
 	@OneToOne
-	
-	//(mappedBy="tenant")
-	@JoinColumn(name = "houseNo")
-	private FlatAddress taddress;
+	@JoinColumn(name = "house_No")
+	private FlatAddress tenantAddress;
 	
 	
 	
 	
 	
-	public Tenant(int tenant_id, String name, int age, FlatAddress taddress) {
+	public Tenant(int tenant_id, String name, int age, FlatAddress tenantAddress) {
 		super();
 		this.tenant_id = tenant_id;
 		this.name = name;
 		this.age = age;
-		this.taddress = taddress;
+		this.tenantAddress = tenantAddress;
 	}
 	public Tenant() {
 		super();
@@ -76,14 +81,14 @@ public class Tenant {
 		this.age = age;
 	}
 	public FlatAddress getTaddress() {
-		return taddress;
+		return tenantAddress;
 	}
 	public void setTaddress(FlatAddress taddress) {
-		this.taddress = taddress;
+		this.tenantAddress = taddress;
 	}
 	@Override
 	public String toString() {
-		return "Tenant [tenant_id=" + tenant_id + ", age=" + age + ", taddress=" + taddress + "]";
+		return "Tenant [tenant_id=" + tenant_id + ", age=" + age + ", tenantAddress=" + tenantAddress + "]";
 	}
 	
 	

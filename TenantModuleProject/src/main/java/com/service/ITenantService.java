@@ -14,8 +14,8 @@ public interface ITenantService {
 	public Tenant updateTenant(Tenant tenant) throws Exception;
 	public Tenant viewTenant(int id) throws  Exception ;
 	public List<Tenant> viewAllTenant();
-	public String deleteTenant() throws TenantNotFoundException;
-	public String deleteTenant(int id) throws TenantNotFoundException ;
+	public String deleteTenant() throws TenantNotFoundException, Exception;
+	public String deleteTenant(int id) throws TenantNotFoundException, Exception ;
 	
 //	public Tenant validateTenant(int tenantId);
 

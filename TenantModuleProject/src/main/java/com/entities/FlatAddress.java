@@ -1,10 +1,11 @@
 package com.entities;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.validation.constraints.Min;
 import javax.validation.constraints.NotBlank;
-
-import com.sun.istack.NotNull;
+import javax.validation.constraints.NotNull;
 
 
 
@@ -12,8 +13,9 @@ import com.sun.istack.NotNull;
 public class FlatAddress {
 	
 	@Id
-	//@NotBlank(message = "Tenant houseNo cannot be empty")
-	//@NotNull
+	@NotBlank(message = "Tenant houseNo cannot be empty")
+	@NotNull
+	@Min(1)
 	private int houseNo;
 	private String street;
 	private String city;
@@ -23,9 +25,9 @@ public class FlatAddress {
 	
 	
 	
-	public FlatAddress(int houseNo, String street, String city, String state, int pin, String country) {
+	public FlatAddress(int house_No, String street, String city, String state, int pin, String country) {
 		super();
-		this.houseNo = houseNo;
+		this.houseNo = house_No;
 		this.street = street;
 		this.city = city;
 		this.state = state;

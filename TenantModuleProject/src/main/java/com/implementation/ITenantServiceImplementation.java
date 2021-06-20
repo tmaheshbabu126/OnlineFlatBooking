@@ -31,11 +31,6 @@ Tenant tenant;
 	ITenantRepository terepo;
 	
 	
-	
-	
-	
-	
-	
 	//method to add tenant adding tenant (check whether there is a valid address so that tenant can be added)
 	@Override
 	public Tenant addTenant(Tenant tenant) {
@@ -66,7 +61,7 @@ Tenant tenant;
 	public Tenant viewTenant(int id) throws Exception {
 		Supplier<Exception> s1 = ()->new TenantNotFoundException("Tenant id is not present in the database");
 		Tenant t1=null;
-			t1 = terepo.findById(id).orElseThrow(s1);
+		t1 = terepo.findById(id).orElseThrow(s1);
 		
 		//Optional<Tenant> t = terepo.findById(id);
 		return t1;
@@ -87,65 +82,25 @@ Tenant tenant;
 	
 	//delete tenant
 	@Override
-	public String deleteTenant() throws TenantNotFoundException {
-		// TODO Auto-generated method stub
-		int id=tenant.getTenant_id();
-		Supplier<Exception> s1 = ()->new TenantNotFoundException("Tenant id is not present in the database");
-		Tenant t1=null;
-		try {
-			t1 = terepo.findById(id).orElseThrow(s1);
-			terepo.deleteAll();
-			return "Tenants are succesfully deleted";
-		} catch (Exception e) {
-			// TODO Auto-generated catch block
-			//e.printStackTrace();
-			return e.toString();
-		}
+	public String deleteTenant() throws Exception {
 		
-		
+		terepo.deleteAll();
+		return "Tenants are succesfully deleted";
 		
 	}
 
 	@Override
-	public String deleteTenant(int id) throws TenantNotFoundException {
+	public String deleteTenant(int id) throws Exception {
 		Supplier<Exception> s1 = ()->new TenantNotFoundException("Tenant id is not present in the database");
 		Tenant t1=null;
-		try {
-			t1 = terepo.findById(id).orElseThrow(s1);
-			terepo.delete(t1);
-			return "Tenant with id : "+id+" is succesfully deleted";
-		} catch (Exception e) {
-			// TODO Auto-generated catch block
-			//e.printStackTrace();
-			return e.toString(); 
-		}
-		//Optional<Tenant> t = terepo.findById(id);
+	
+		t1 = terepo.findById(id).orElseThrow(s1);
+		terepo.delete(t1);
+		return "Tenant with id : "+id+" is succesfully deleted";
+		
 		
 	}
 	
-	
-
-
-	
-	
-	
-//	@Override
-//	public Tenant validateTenant(int tenantId) {
-//		// TODO Auto-generated method stub
-//		return null;
-//	}
-
-	
-	
-	
-	/**
-	 * @param args
-	 */
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
-
 
 	
 
