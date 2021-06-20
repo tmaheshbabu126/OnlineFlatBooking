@@ -8,6 +8,7 @@ import javax.validation.Valid;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
+import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -30,7 +31,8 @@ public class LandlordController {
 	ILandlordService landlordservice;
 	
 	
-	@PostMapping(path="/add")
+	
+	@PostMapping(value = "/add" ,consumes = {MediaType.ALL_VALUE})
 	public ResponseEntity<Landlord> addLandlord(@Valid @RequestBody Landlord ld)
 	{
 		Landlord ld1=landlordservice.addLandlord(ld);
@@ -84,5 +86,14 @@ public class LandlordController {
 		  ResponseEntity<String> re= new ResponseEntity<String>("Deleted",HttpStatus.OK); 
 		  return re; 
 		  }
+		  
+			@DeleteMapping(path="/delete/{lid}")
+			public ResponseEntity<String> deleteLandlordbyId(@PathVariable int lid) throws LandlordNotFoundException
+			{
+				String le=landlordservice.deleteLandlordbyId(lid);
+				
+				ResponseEntity<String> re=new ResponseEntity<String>(le,HttpStatus.OK);
+				return re;
+			}
  
 }

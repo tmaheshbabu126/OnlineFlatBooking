@@ -24,17 +24,21 @@ import org.springframework.stereotype.Component;
 public class Landlord {
 	
 	@Id
-	//@GeneratedValue(strategy = GenerationType.IDENTITY)
-	@NotNull
+	@GeneratedValue(strategy = GenerationType.AUTO)
 	private int landlordId;
+	
+	@NotEmpty(message = "Landlord name cannot be empty")
 	@NotNull
+	@Size(min=3,max=15)
+	@Pattern(regexp ="^[A-Z][a-z]", message ="length must be 3 and max 15 and dont use numbers")
 	private String landlordName;
+	
+	@NotEmpty(message = " Landlord age cannot be empty")
 	@NotNull
-	@Min(18)
+	@Min(value=18,message="age should be Positive Number and Mnimun age 18 is required")
+	@Pattern(regexp ="^[0-9]")
 	private int landlordAge;
-	
-	 
-	
+
 	
 	@OneToMany
 	//(mappedBy = "flatId")
@@ -46,7 +50,7 @@ public class Landlord {
 		super();
 	}
 
-	public Landlord(int landlordId, String landlordName, int landlordAge) {
+	public Landlord(int landlordId, String landlordName, int landlordAge) { 
 		super();
 		this.landlordId = landlordId;
 		this.landlordName = landlordName;

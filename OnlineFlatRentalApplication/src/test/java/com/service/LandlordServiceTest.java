@@ -71,7 +71,7 @@ class LandlordServiceTest {
 	}
 
 	@Test
-	void testViewLandlord() {
+	void testViewLandlord()    {
 		
 		Landlord  l1 = new Landlord();
 		l1.setLandlordId(1);

@@ -37,6 +37,7 @@ public class ILandlordServiceImplementation implements ILandlordService {
 			return ll;
 		}
 
+		
 	  @Override 
 	  public Landlord updateLandlord(Landlord landlord) throws LandlordNotFoundException {
 		  int id=landlord.getLandlordId();
@@ -71,6 +72,22 @@ public class ILandlordServiceImplementation implements ILandlordService {
 				return e.toString();
 			}
 		  
+	  }
+	  
+	  @Override
+		public String deleteLandlordbyId(int id) throws LandlordNotFoundException {
+			Supplier<Exception> s1 = ()->new LandlordNotFoundException("Landlord id is not present in the database");
+			Landlord l1=null;
+			try {
+				l1 = lrepo.findById(id).orElseThrow(s1);
+				lrepo.delete(l1);
+				return "Landlord with id : "+id+" is succesfully deleted";
+			} catch (Exception e) {
+				// TODO Auto-generated catch block
+				//e.printStackTrace();
+				return e.toString(); 
+			}
+			
 	  }
 	  
 	  @Override 
